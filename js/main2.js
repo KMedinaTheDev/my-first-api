@@ -1,0 +1,1 @@
+alert("Page 2!")

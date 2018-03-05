@@ -1,0 +1,15 @@
+{
+  "name": "km-1st-api",
+  "version": "1.0.0",
+  "description": "1st api demo",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first",
+    "api"
+  ],
+  "author": "Karen Medina",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+{
+  name: "karen",
+  age: "26",
+  quote: "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+  inkBlot: "images/ink2.png"
+},
+{
+  name: "noName",
+  age:"awake",
+  quote:"Trying to define yourself is like trying to bite your own teeth.",
+  inkBlot: "images/ink4.png"
+}
