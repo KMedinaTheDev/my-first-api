@@ -34,4 +34,4 @@ I was having trouble with the images displaying on the third html file and reali
 During this project I worked through installing figlet via the command line and using it for my server's 404 response. This is way cooler than only displaying 404 as an integer, check it out!
 
 
-**GitHub:** https://github.com/alecortega/patch-panel
+**Link:** Coming Soon
