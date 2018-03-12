@@ -40,22 +40,22 @@ const server = http.createServer(function(req, res) {
             inkBlot:"images/ink2.png"
           }
           res.end(JSON.stringify(objToJson));
-        }//student = leon
-        if(params['student']== 'angel')
+        }
+        if(params['student']== 'noName')
           {
               res.writeHead(200, {'Content-Type': 'application/json'});
               var objToJson =
               {
-                name: "angel",
-                age: "26 y/o",
+                name: "noName",
+                age: "awake",
                 quote: "Trying to define yourself is like trying to bite your own teeth.",
                 inkBlot:"images/ink4.png"
               }
               res.end(JSON.stringify(objToJson));
             }
-        if(params['student'] != 'karen' && params['student'] != 'angel')
+        if(params['student'] != 'karen' && params['student'] != 'noName')
         {
-          console.log("hi")
+          // console.log("hi")
           res.writeHead(200, {'Content-Type': 'application/json'});
           var objToJson =
           {
@@ -66,8 +66,8 @@ const server = http.createServer(function(req, res) {
           }
           res.end(JSON.stringify(objToJson));
         }
-      }//name != leon
-    }//name if
+      }
+    }
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/css'});
@@ -150,7 +150,7 @@ const server = http.createServer(function(req, res) {
     });
   }
   else{
-    figlet('404!!', function(err, data) {
+    figlet('404!! (*o*) Something went wrong (*0*) ', function(err, data) {
       if (err) {
           console.log('Something went wrong...');
           console.dir(err);

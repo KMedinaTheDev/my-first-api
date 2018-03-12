@@ -1,10 +1,18 @@
-# My First API *work in Progress*
+![Get Inspired](images/awendpoint.png)
 
-I created an API that allows a user to enter a string, if the entry has a match then  content will be displayed. A user can see the name searched, age, a quote,from the 70s Philosopher Alan Watts, and an image.This Web Application has three different endpoints, each directs you to another html file with it's own css and js files.
+# My First API
+*work in Progress*
 
-The second endpoint can be accessed by adding:/tolle to the url, this takes you to a page containing quotes from Eckhart Tolle's book: The Power of Now. The last endpoint can be viewed by adding: /dube to the url, this leads you to a page with images containing quotes by the music reggae artist Lucky Dube.  
+I created an API that allows a user to enter a string, if the entry has a match then the matching object's data will be pulled from the data.json file and be displayed.
+What Does the User See?
+The user can see the name searched, the stored age, a quote,from the 70s Philosopher Alan Watts, and an image.This Web Application has three different endpoints, each directs you to another html file with it's own css and js files.
 
-![alt tag](http://cdn.playbuzz.com/cdn/908eacd4-2db8-428f-89f6-f5e55c533ce4/dc9e860c-6c8b-4b09-983f-65e506853cb8_560_420.jpg)
+The second endpoint can be accessed by adding:/tolle to the url, this takes you to a page containing quotes from Eckhart Tolle's book: The Power of Now.
+
+
+The last endpoint can be viewed by adding: /dube to the url, this leads you to a page with images containing quotes by the music reggae artist Lucky Dube.  
+
+![ScreenShot](images/dubess.png)
 
 ## How It's Made:
 
@@ -12,10 +20,18 @@ The second endpoint can be accessed by adding:/tolle to the url, this takes you 
 
 I used HTML, CSS, JavaScript, along with nodeJS to develop a full stack application.
 
-## Lessons Learned:
-By working with nodeJS I was able to run my own server for this API.
+I had a lot of fun with this project, I'm a big fan of self empowerment and decided to include some amazing quotes as part of this demo. This demo includes wise words from one of my favorite philosophers Alan Watts, the author, Eckhart Tolle, who's books I can not get enough of, and the South African superstar Lucky Dube who's life was cut short due to violence.
 
-I learned how install figlet via the command line and use it for my server's 404 response.
+![ScreenShot](images/noNameendpoint.png)
+
+## Instructions:
+
+Entries accepted on the landing page: karen, noName, other searches will result in an unknown. Try it out!
+
+## Lessons Learned:
+I was having trouble with the images displaying on the third html file and realized I had to create endpoints for each image, just as I had done for each css, html, and js file.
+
+During this project I worked through installing figlet via the command line and using it for my server's 404 response. This is way cooler than only displaying 404 as an integer, check it out!
 
 
 **GitHub:** https://github.com/alecortega/patch-panel
